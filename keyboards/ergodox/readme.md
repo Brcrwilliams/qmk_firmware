@@ -1,6 +1,6 @@
 # The Easy Way
 
-If you have an ErgoDox EZ, the absolute easiest way for you to customize your firmware is using the [graphical configurator](http://configure.ergodox-ez.com), which uses QMK under the hood. 
+If you have an ErgoDox EZ, the absolute easiest way for you to customize your firmware is using the [graphical configurator](http://configure.ergodox-ez.com), which uses QMK under the hood.
 
 If you can find firmware someone else has made that does what you want, that
 is the easiest way to customize your ErgoDox.  It requires no programming
@@ -74,7 +74,7 @@ Some distributions provide a binary, maybe called `teensy-loader-cli`).
 
 To flash the firmware:
 
-  - Build the firmware with `make keymapname`, for example `make default` 
+  - Build the firmware with `make keymapname`, for example `make default`
   - This will result in a hex file called `ergodox_ez_keymapname.hex`, e.g.
     `ergodox_ez_default.hex`
 
