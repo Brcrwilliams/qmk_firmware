@@ -79,7 +79,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_RAISE] = KEYMAP( \
   KC_GRV,  _______, _______, _______,    _______,    _______, _______, _______, _______,  KC_LBRC, KC_RBRC, KC_BSPC, \
   KC_LGUI, KC_EXLM, KC_AT,   KC_HASH,    KC_DLR,     KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_ENT, \
-  KC_LSFT, _______, _______, KC_PSCREEN, KC_SCKLOCK, KC_END, KC_HOME, _______, _______, KC_LCBR, KC_RCBR, KC_RSFT, \
+  KC_LSFT, _______, _______, KC_PSCREEN, KC_SLCK, KC_END, KC_HOME, _______, _______, KC_LCBR, KC_RCBR, KC_RSFT, \
   KC_CAPSLOCK,  KC_LALT, KC_LCTL, KC_ESC, _______,   KC_SPC, KC_DEL, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT \
 ),
 
