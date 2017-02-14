@@ -16,7 +16,7 @@ Create the hex file that you will flash onto the Arduino:
 This can now be found in qmk_firmware/.build/
 
 Next, we will run a script to find the serial port and then flash the firmware. Make sure that it is executable by running:
-`chmod 700 flash.sh`
+`chmod +x flash.sh`
 
 In your terminal type `./flash.sh ../../.build/lets_split_rev2_custom_mac.hex` but **do not run it yet.**
 
